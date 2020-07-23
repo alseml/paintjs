@@ -71,7 +71,7 @@ function CanvasClick(event) {
 }
 
 function handleCM(event) {
-  event.preventDefault();
+  event.preventDefault(); // 마우스 오른쪽 클릭 금지.
 }
 
 function SaveImg() {
